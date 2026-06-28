@@ -3,7 +3,7 @@
 # ============================================================
 # Script: Git Master Backup
 # Description: Scans all drives for Git repos and backs them up
-# Author: baanbhaba
+# Author: baanbhaba & ai
 # ============================================================
 
 # ---------------------- COLORS ------------------------------
