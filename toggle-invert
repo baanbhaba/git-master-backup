@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+SHADER="$HOME/.config/hypr/shaders/invert.frag"
+
+CURRENT="$(hyprctl getoption decoration:screen_shader 2>/dev/null)"
+
+if echo "$CURRENT" | grep -q "invert.frag"; then
+    hyprctl keyword decoration:screen_shader ""
+else
+    hyprctl keyword decoration:screen_shader "$SHADER"
+fi
